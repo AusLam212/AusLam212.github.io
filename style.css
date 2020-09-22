@@ -1,5 +1,6 @@
 body {
-    background-image: url(https://i.pinimg.com/originals/9f/13/2f/9f132ff4cf4c5368a1fca08aad881dca.jpg);
+    background-image: url(https://mcdn.wallpapersafari.com/medium/89/45/fGlJLQ.jpg);
+    font-family: 'Source Serif Pro', serif;
 }
 
 h1 {
@@ -8,11 +9,28 @@ h1 {
 }
 
 nav {
-    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+    color: white;
 }
 
 nav li {
     margin: 0 10px;
+}
+
+.container {
+    margin: 20px 10%;
+    background-color: grey;
+    color: white;
+    border: 2px solid white;
+}
+
+.row {
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    margin-bottom: 10px;
 }
 
 
@@ -22,6 +40,9 @@ nav li {
     padding: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    background-color: #343a40;
+    background-color: black;
     color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
 }
