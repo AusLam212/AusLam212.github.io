@@ -1,4 +1,27 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/9f/13/2f/9f132ff4cf4c5368a1fca08aad881dca.jpg);
+}
+
 h1 {
     font-size: 2em;
     font-weight: bold;
+}
+
+nav {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+
+/* Make sure to add footer on bottom*/
+
+.footer {
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #343a40;
+    color: white;
 }
