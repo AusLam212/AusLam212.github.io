@@ -1,3 +1,5 @@
+/* Consistent across each HTML*/
+
 body {
     background-image: url(https://mcdn.wallpapersafari.com/medium/89/45/fGlJLQ.jpg);
     font-family: 'Source Serif Pro', serif;
@@ -18,23 +20,17 @@ nav li {
 }
 
 .container {
-    margin: 60px 20%;
+    margin: 60px auto;
     background-color: grey;
     color: white;
     border: 2px solid white;
+    max-width: 80%;
 }
 
 .row {
     margin: 20px;
     padding: 20px;
 }
-
-label {
-    margin-bottom: 10px;
-}
-
-
-/* Make sure to add footer on bottom*/
 
 .footer {
     padding: 15px;
@@ -45,4 +41,19 @@ label {
     position: fixed;
     bottom: 0%;
     width: 100%;
+}
+
+
+/* For contact.html */
+
+label {
+    margin-bottom: 10px;
+}
+
+
+/* For index.html */
+
+.about-me-img {
+    width: 250px;
+    height: 300px;
 }
